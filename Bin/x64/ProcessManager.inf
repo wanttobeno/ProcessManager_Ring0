@@ -1,0 +1,32 @@
+;
+; ProcessManager.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=
+ClassGuid=
+Provider=
+DriverVer=03/27/2018,22.5.31.799
+CatalogFile=
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64
+
+[Standard.NTamd64]
+
+
+[Strings]
+ManufacturerName=""
+ClassName=""
+DiskName="ProcessManager Source Disk"
